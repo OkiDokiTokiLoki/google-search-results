@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>the odin project - Google Search</title>
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+
+            <div class="left-nav flex zhu">
+
+                <img class="logo" src="./Assets/google-logo.png" style="width: 120px; padding: 15px;" alt="">
+
+                <div class="search-div flex">
+
+                    <input class="search-input" placeholder="the odin project" type="search">
+
+                    <div class="search-tools flex">
+
+                        <a class="close-btn" style="margin-left: -40px;" href="#">  
+                            <img src="./Assets/close.png" alt="">
+                        </a>
+
+                        <a class="mic-btn" style="margin-left:10px;" href="#">
+                            <img src="./Assets/mic.png" alt="">
+                        </a>
+        
+                        <a class="search-btn" href="#">
+                            <img src="./Assets/search.png" style="width: 24px;" alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+                       
+
+            <div class="signin-div right-nav">
+                <a class="settings-btn" href="#">
+                    <img src="./Assets/settings.png" alt="">
+                </a>
+
+                <a class="apps-btn" href="#">
+                    <img src="./Assets/apps.png" alt="">
+                </a>
+
+                <button>Sign in</button>
+
+                <!-- <a class="user-profile" href="#">
+                    <img src="./Assets/avatar.png" alt="">
+                </a> -->
+            </div>
+        </nav>
+
+        <!--<div class="tools">
+            <a href="#"><img src="./Assets/search.png" alt="">All</a>
+            <a href="#"><img src="./Assets/images.png" alt="">Images</a>
+            <a href="#"><img src="./Assets/videos.png" alt="">Videos</a>
+            <a href="#"><img src="./Assets/news.png" alt="">News</a>
+            <a href="#"><img src="./Assets/shopping.png" alt="">Shopping</a>
+            <a href="#"><img src="./Assets/more.png" alt="">More</a>
+            <a href="#">>Tools</a>
+        </div>-->
+
+    </header>
+
+    <!--<main>
+        <p>About 17 300 000 results (0,50 seconds)</p>
+
+        <div class="result-div first-result">
+                
+            <a href="https://www.theodinproject.com" class="heading-link">
+                <div class="cite-div">
+                    <cite>https://www.theodinproject.com</cite>
+                    <span><img src="./Assets/dropdown.png" alt=""></span>
+                </div>
+                
+                <h3 class="visited">The Odin Project: Your Career in Web Development Starts Here</h3>
+            </a>
+            
+            <p><strong>The Odin Project</strong> empowers aspiring web developers to learn together.</p>
+            
+            <table class="fr-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <a href="#" class="visited">
+                                    <h3>Login</h3>
+                                </a>
+                                
+                                <p>The Odin Project empowers aspiring web developers to ...</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a href="#">
+                                    <h3>Full Stack JavaScript</h3>
+                                </a>
+                                
+                                <p>JavaScript - NodeJS - HTML and CSS - Getting Hired - ...</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div>
+                                <a href="#" class="visited">
+                                    <h3>Foundations</h3>
+                                </a>
+                                
+                                <p>How this Course Will Work - HTML and CSS Basics - Prerequisites</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a href="#">
+                                    <h3>JavaScript</h3>
+                                </a>
+                                
+                                <p>How this course will work - Library - Restaurant Page - Final Project</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div>
+                                <a href="#">
+                                    <h3>All Paths</h3>
+                                </a>
+                                
+                                <p>All Paths. Foundations. Start here! This is where it all begins! A ...</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a href="#">
+                                    <h3>About</h3>
+                                </a>
+                                
+                                <p>The Odin Project provides a free open source coding curriculum ...</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#">More results from theodinproject.com&nbsp;»</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="people-also-ask">
+            <h3>People also ask</h3>
+
+            <div class="related-qs-div flex">
+                <div class="q-div flex a-center">
+                    <a href="#" class="related-q-link">Is the Odin project free?</a>
+                    <span class="dropdown-icon"></span>
+                </div>
+
+                <div class="q-div flex a-center">
+                    <a href="#" class="related-q-link">How long does the Odin project take?</a>
+                    <span class="dropdown-icon"></span>
+                </div>
+
+                <div class="q-div flex a-center">
+                    <a href="#" class="related-q-link">Can you get a job with the Odin project?</a>
+                    <span class="dropdown-icon"></span>
+                </div>
+
+                <div class="q-div flex a-center">
+                    <a href="#" class="related-q-link">Is Project Odin real?</a>
+                    <span class="dropdown-icon"></span>
+                </div>
+
+                <div class="feedback-div flex">
+                    <div class="feedback-line flex"></div>
+                    <span class="fdbk-span">Feedback</span>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="result-div">
+                
+            <a href="#" class="heading-link">
+                <div class="cite-div">
+                    <cite>https://twitter.com/TheOdinProject</cite>
+                </div>
+                
+                <h3>The Odin Project (@TheOdinProject) · Twitter</h3>
+            </a>
+            
+            <p>What Path are you currently on? Vote and drop a comment below with what you are currently working on! #openSource #theOdinProject #LearnToCode #RubyOnRails #javascript</p>
+            <span><a href="#">Twitter</a> · 24 Aug 2021</span>
+        </div>
+
+        <div class="result-div">
+                
+            <a href="#" class="heading-link">
+                <div class="cite-div">
+                    <cite>https://github.com > TheOdinProject > theodinproject</cite>
+                </div>
+                
+                <h3>Main Website for The Odin Project - GitHub</h3>
+            </a>
+            
+            <p>The Odin Project is an open source community and curriculum for learning web development. Students of The Odin Project build portfolio projects and complete ...</p>
+        </div>
+
+        <div class="result-div">
+                
+            <a href="#" class="heading-link">
+                <div class="cite-div">
+                    <cite>https://github.com > TheOdinProject</cite>
+                </div>
+                
+                <h3>The Odin Project - GitHub</h3>
+            </a>
+            
+            <p>The Odin Project has 16 repositories available. Follow their code on GitHub.</p>
+        </div>
+
+        <div class="result-div">
+                
+            <a href="#" class="heading-link">
+                <div class="cite-div">
+                    <cite>https://www.instagram.com > theodinproject</cite>
+                </div>
+                
+                <h3>The Odin Project (@theodinproject) - Instagram</h3>
+            </a>
+            
+            <p>5635 Followers, 1 Following, 15 Posts - See Instagram photos and videos from <strong>The Odin Project (@theodinproject)</strong> </p>
+        </div>
+
+        <div class="result-div">
+                
+            <a href="#" class="heading-link">
+                <div class="cite-div">
+                    <cite>https://www.facebook.com > ... > Businesses > Education</cite>
+                </div>
+                
+                <h3>The Odin Project - Home | Facebook</h3>
+            </a>
+            
+            <p>The open source and free curriculum for learning web development... use projects and resources from... San Francisco.</p>
+        </div>
+
+        <div class="related-searches">
+            <h3>Related searches</h3>
+
+            <p>Best online coding programs</p>
+
+            <div class="related-suggestions">
+                <div class="holder">
+                    <img src="#" alt="">
+                    <a href="#">freeCodeCamp</a>
+                </div>
+
+                <div class="holder">
+                    <img src="#" alt="">
+                    <a href="#">codecademy</a>
+                </div>
+
+                <div class="holder">
+                    <img src="#" alt="">
+                    <a href="#">Khan Academy</a>
+                </div>
+
+                <div class="holder">
+                    <img src="#" alt="">
+                    <a href="#">Coursera</a>
+                </div>
+
+                <div class="holder">
+                    <img src="#" alt="">
+                    <a href="#">Udacity</a>
+                </div>
+
+                <div class="holder">
+                    <img src="#" alt="">
+                    <a href="#">Treehouse</a>
+                </div>
+            </div>
+
+            <div class="see-more">
+                <img src="./Assets/arrow.png" alt="">
+                <a href="#">See more</a>
+            </div>
+
+            <div class="feedback-div flex">
+                <div class="feedback-line flex"></div>
+                <span class="fdbk-span">Feedback</span>
+            </div>
+
+            <div class="more-searches">
+                <div class="searchbox">
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#"><span class="top-span">the odin project</span> review</a>
+                    </div>
+
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#"><span class="top-span">the odin project</span> reddit</a>
+                    </div>
+
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#"><span class="top-span">the odin project</span> vs freecodecamp</a>
+                    </div>
+
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#"><span class="top-span">the odin project</span> which track</a>
+                    </div>
+                </div>
+
+                <div class="searchbox">
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#"><span class="top-span">the odin project</span> react</a>
+                    </div>
+
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#">courses like <span class="top-span">the odin project</span></a>
+                    </div>
+
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#"><span class="top-span">the odin project</span> lessons</a>
+                    </div>
+
+                    <div class="box-result">
+                        <img src="./Assets/search.png" alt="">
+                        <a href="#"><span class="top-span">the odin project</span> schedule</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <span>G</span>
+                    </td>
+                    <td>
+                        <span class="current o-bg"></span>1
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>2</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>3</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>4</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>5</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>6</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>7</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>8</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>9</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="o-bg"></span>10</a>
+                    </td>
+                    <td>
+                        <a href="#"><span class="next-bg"></span><span style="display:block;margin-left:23px">Next</span></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <div style="height: 5vh; background-color: hsl(0, 0%, 95%);"></div>
+    </footer>
+-->
+
+</body>
+</html>

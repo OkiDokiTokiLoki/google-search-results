@@ -1,0 +1,173 @@
+/* --->   Resets   <--- */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.zhu{
+    width: 44%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-center{
+    align-items: center;
+}
+
+/* --->   Header   <--- */
+/* --->   Main   <--- */
+/* --->   Resets   <--- */
+
+
+/* header{
+    background-color: lightpink;
+} */
+.first-result{
+    background-color: lightsteelblue !important;
+}
+.people-also-ask{
+    background-color: lightblue;
+}
+.result-div{
+    background-color: lightgreen;
+}
+.related-searches{
+    background-color: lightsalmon;
+}
+table{
+    background-color: lightcoral;
+}
+/* nav{
+    background-color: lightblue;
+} */
+
+/* .search-div{
+    background-color: yellow;
+} */
+
+.signin-div{
+    background-color: violet;
+}
+
+
+
+
+
+
+
+header{
+    padding-top: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav{
+    justify-content: space-between;
+}
+
+.search-div{
+    justify-content: flex-start;
+    width: 82%;
+    height: 48px;
+    border: 1px solid hsl(0, 0%, 95%);
+    box-shadow: 0 2px 5px 0 hsl(0, 0%, 85%);
+    border-radius: 30px;
+    padding-right: 15px;
+}
+
+.search-input{
+    width: 100%; 
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+::placeholder{
+    color: hsl(0, 0%, 15%);
+    font-size: 1rem;
+}
+
+.search-tools{
+    justify-content: space-between;
+    width: 5rem;
+    border-left: 1px solid hsl(0, 0%, 95%);
+    
+    /* background-color: hsl(0, 0%, 95%); */
+
+}
+
+
+
+
+
+
+
+
+/*.visited{
+    color: blueviolet;
+}
+
+.related-qs-div{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.q-div{
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 30%;
+    border-top: 1px solid hsl(0, 0%, 50%);
+}
+
+.related-q-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.dropdown-icon{
+    background-image: url(./Assets/chevron.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display:inline-block;
+    transform: rotate(90deg);
+}
+
+.feedback-div{
+    justify-content: flex-end;
+    padding: 5px 0 10px 0;
+    width: 30%;
+}
+
+
+.feedback-line{
+    justify-content: flex-end;
+    align-content: baseline;
+    border-top: 1px solid hsl(0, 0%, 50%);
+    width: 100%;
+
+    background-color: lavender;
+}
+
+.fdbk-span{
+    position: absolute;
+    margin-top: -10px;
+    padding: 1px 0 1px 10px;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}*/
+
+
+
