@@ -32,61 +32,13 @@ body{
     border-radius: 30px;
 }
 
-
-
 .tdn{
     text-decoration: none;
 }
 
-
-
 .visited{
     color: hsl(276, 76%, 35%);
 }
-
-
-/* header{
-    background-color: lightpink;
-}*/
-/* .first-result{
-    background-color: lightsteelblue !important;
-} */
-/*.people-also-ask{
-    background-color: lightblue;
-}
-.result-div{
-    background-color: lightgreen;
-}
-.related-searches{
-    background-color: lightsalmon;
-}
-table{
-    background-color: lightcoral;
-}
-nav{
-    background-color: lightblue;
-}
-.search-div{
-    background-color: yellow;
-} 
-.tools{
-    background-color: indianred;
-}*/
-
-/* nav{
-    background-color: indianred;
-}
-
-.left-nav{
-    background-color: khaki;
-}
-
-.right-nav{
-    background-color: lawngreen;
-} */
-
-
-
 
 /* --->   Header   <--- */
 
@@ -255,22 +207,26 @@ cite{
     font-size: 14px;
 }
 
+.paa-div{
+    padding: 40px 0;
+}
 
+.paa-h3{
+    font-weight: 400;
+    font-size: 22px;
+}
 
-
-
-
-/*.related-qs-div{
+.related-qs-div{
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-content: center;
 }
 
 .q-div{
     justify-content: space-between;
     padding: 10px 0;
-    width: 30%;
-    border-top: 1px solid hsl(0, 0%, 50%);
+    width: 38%;
+    border-top: 1px solid hsl(0, 0%, 90%);
 }
 
 .related-q-link{
@@ -293,23 +249,17 @@ cite{
     width: 30%;
 }
 
-
 .feedback-line{
     justify-content: flex-end;
     align-content: baseline;
-    border-top: 1px solid hsl(0, 0%, 50%);
+    border-top: 1px solid hsl(0, 0%, 90%);
     width: 100%;
-
-    background-color: lavender;
 }
 
 .fdbk-span{
-    position: absolute;
     margin-top: -10px;
     padding: 1px 0 1px 10px;
-    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 50%);
     font-size: 12px;
-}*/
-
-
+}
 
