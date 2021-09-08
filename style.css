@@ -40,16 +40,18 @@ body{
 
 
 
-
+.visited{
+    color: hsl(276, 76%, 35%);
+}
 
 
 /* header{
     background-color: lightpink;
-}
-.first-result{
+}*/
+/* .first-result{
     background-color: lightsteelblue !important;
-}
-.people-also-ask{
+} */
+/*.people-also-ask{
     background-color: lightblue;
 }
 .result-div{
@@ -71,9 +73,17 @@ nav{
     background-color: indianred;
 }*/
 
+/* nav{
+    background-color: indianred;
+}
 
-/* --->   Main   <--- */
-/* --->   Resets   <--- */
+.left-nav{
+    background-color: khaki;
+}
+
+.right-nav{
+    background-color: lawngreen;
+} */
 
 
 
@@ -98,11 +108,13 @@ nav{
 
 .search-div{
     justify-content: flex-start;
-    width: 82%;
+    width: 680px;
     height: 48px;
-    border: 1px solid hsl(0, 0%, 95%);
-    box-shadow: 0 2px 5px 0 hsl(0, 0%, 85%);
+    position: absolute;
+    left: 170px;
     padding-right: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    box-shadow: 0 2px 5px 0 hsl(0, 0%, 85%);    
 }
 
 .search-input{
@@ -168,14 +180,87 @@ nav{
     margin-left: 125px;
 }
 
+/* --->   Main   <--- */
 
-
-
-/*.visited{
-    color: blueviolet;
+main{
+    line-height: .6rem;
 }
 
-.related-qs-div{
+.results{
+    color: hsl(0, 0%, 50%);
+    font-size: 0.86rem;
+    margin-top: 17px;
+}
+
+.first-result-div{
+    margin-top: 20px;
+}
+
+.heading-a{
+    color: hsl(0, 0%, 15%);
+    max-width: 38%;
+}
+
+.heading-h3{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.cite-div{
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+
+cite{
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.cite-img{
+    width: 18px;
+    margin-left: 17px;
+
+}
+
+.fr-table{
+    margin-top: -5px;
+    margin-left: 17px;
+}
+
+.frt-left,
+.frt-right{
+    width: 220px;
+}
+
+.frt-right{
+    margin-left: 58px;
+}
+
+.frt-h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0;
+}
+
+.frt-p{
+    line-height: 1.2rem;
+    font-size: 14px;
+    color: hsl(0, 0%, 35%);
+}
+
+.frt-q{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/*.related-qs-div{
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
