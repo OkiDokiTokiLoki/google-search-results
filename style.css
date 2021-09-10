@@ -37,7 +37,7 @@ body{
 }
 
 .visited{
-    color: hsl(276, 76%, 35%);
+    color: hsl(276, 76%, 35%) !important;
 }
 
 /* --->   Header   <--- */
@@ -156,7 +156,7 @@ main{
 .heading-h3{
     font-weight: 400;
     font-size: 20px;
-    margin-top: 15px;
+    color: hsl(240, 100%, 30%);
 }
 
 .cite-div{
@@ -167,13 +167,19 @@ main{
 cite{
     font-style: normal;
     font-size: 14px;
-
 }
 
 .cite-img{
     width: 18px;
     margin-left: 17px;
 
+}
+
+.result-p{
+    font-size: 14px;
+    color: hsl(0, 0%, 35%);
+    max-width: 95%;
+    line-height: 1.2rem;
 }
 
 .fr-table{
@@ -197,7 +203,7 @@ cite{
 }
 
 .frt-p{
-    line-height: 1.2rem;
+    line-height: 1.3rem;
     font-size: 14px;
     color: hsl(0, 0%, 35%);
 }
@@ -208,12 +214,12 @@ cite{
 }
 
 .paa-div{
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .paa-h3{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .related-qs-div{
@@ -245,8 +251,8 @@ cite{
 
 .feedback-div{
     justify-content: flex-end;
-    padding: 5px 0 10px 0;
-    width: 30%;
+    padding-top: 5px;
+    width: 38%;
 }
 
 .feedback-line{
@@ -263,3 +269,7 @@ cite{
     font-size: 12px;
 }
 
+.result-div{
+    padding-top: 10px;
+    width: 38%;
+}
