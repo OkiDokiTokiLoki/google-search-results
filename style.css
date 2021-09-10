@@ -217,7 +217,8 @@ cite{
     padding: 20px 0;
 }
 
-.paa-h3{
+.paa-h3,
+.rs-h3{
     font-weight: 400;
     font-size: 20px;
 }
@@ -272,4 +273,12 @@ cite{
 .result-div{
     padding-top: 10px;
     width: 38%;
+}
+
+.related-searches{
+    max-width: 38%;
+}
+
+.related-suggestions{
+    align-items: baseline;
 }
