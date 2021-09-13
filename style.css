@@ -295,8 +295,8 @@ cite{
 
 .holder-img{
     width: 100px;
-    height: 100px;
-    border-radius: 5px;    
+    background-color: hsl(0, 0%, 96%);
+    border-radius: 8px;    
 }
 
 .holder-a{
@@ -305,3 +305,49 @@ cite{
     padding: 8px 8px;
     line-height: 1.2rem;
 } 
+
+.see-more{
+    padding-top: 18px;
+}
+
+.sm-div{
+    padding: 8px 5px;
+    border: 1px solid hsl(0, 0%, 90%);
+    border-radius: 20px;
+    width: 300px;
+}
+
+.top-span{
+    font-weight: 600;
+}
+
+.more-searches{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.searchbox{
+    margin-top: 25px;
+}
+
+
+.box-result{
+    justify-content: flex-start;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 15px;
+    margin: 8px 0;
+}
+
+.box-result > a{
+    text-decoration: none;
+    color: hsl(0, 0%, 15%);
+    line-height: 1.2rem;
+    padding-left: 15px;
+}
+
+.sb-img{
+    width: 20px;
+    margin-left: 13px;
+}
