@@ -1,4 +1,6 @@
+/*======================*/
 /* --->   Resets   <--- */
+/*======================*/
 
 *,
 *::before,
@@ -36,7 +38,9 @@ body{
     color: hsl(276, 76%, 35%) !important;
 }
 
+/*======================*/
 /* --->   Header   <--- */
+/*======================*/
 
 header{
     padding-top: 10px;
@@ -128,7 +132,9 @@ nav{
     margin-left: 125px;
 }
 
-/* --->   Main   <--- */
+/*==================================*/
+/* --->   Main: First result   <--- */
+/*==================================*/
 
 main{
     line-height: .6rem;
@@ -209,6 +215,10 @@ cite{
     font-size: 14px;
 }
 
+/*=====================================*/
+/* --->   Main: People also ask   <--- */
+/*=====================================*/
+
 .paa-div{
     padding: 20px 0;
 }
@@ -262,6 +272,10 @@ cite{
     color: hsl(0, 0%, 50%);
     font-size: 12px;
 }
+
+/*======================================*/
+/* --->   Main: Related searches   <--- */
+/*======================================*/
 
 .result-div{
     padding-top: 10px;
@@ -348,16 +362,47 @@ cite{
     margin-left: 13px;
 }
 
+/*====================================*/
+/* --->   Main: Goooooooooogle   <--- */
+/*====================================*/
+
 .google-table{
     margin-left: 170px;
+    padding: 30px 0 45px 0;
 }
 
 .here{
     flex-direction: column;
+    font-size: 13px;
+    text-decoration: none;
+    color: hsl(214, 82%, 51%);
 }
 
 .current{
     cursor: auto;
+    color: hsl(0, 0%, 15%);
 }
 
+.here > img{
+    padding-bottom: 5px;
+}
 
+/*======================*/
+/* --->   Footer   <--- */
+/*======================*/
+
+footer{
+    height: 97px;
+    background-color: hsl(0, 0%, 95%);
+    padding-left: 170px;
+    color: hsl(0, 0%, 45%);
+}
+
+.f-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 54px;
+    border-bottom: 1px solid hsl(0, 0%, 85%);
+    font-size: 14px;
+}
