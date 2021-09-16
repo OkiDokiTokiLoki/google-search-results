@@ -12,22 +12,10 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.zhu{
-    width: 44%;
-}
-
-.shu{
-    margin-left: 150px;
-}
-
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.br30{
-    border-radius: 30px;
 }
 
 .tdn{
@@ -58,21 +46,30 @@ nav{
     justify-content: space-between;
 }
 
+.logo{
+    width: 125px;
+    padding: 17px;
+}
+
 .search-div{
     justify-content: flex-start;
     width: 680px;
     height: 48px;
+
     position: absolute;
     left: 170px;
+
     padding-right: 15px;
     border: 1px solid hsl(0, 0%, 95%);
-    box-shadow: 0 2px 5px 0 hsl(0, 0%, 85%);    
+    box-shadow: 0 2px 5px 0 hsl(0, 0%, 85%);  
+    border-radius: 30px;  
 }
 
 .search-input{
     width: 100%; 
     height: 100%;
     border: none;
+    border-radius: 30px;
     padding-left: 20px;
 }
 
@@ -95,6 +92,7 @@ nav{
 .rn-tools-a{
     width: 38px;
     height: 38px;
+    border-radius: 30px;
 }
 
 .rn-tools-a:hover{
@@ -105,6 +103,11 @@ nav{
     width: 25px;
 }
 
+.avatar{
+    width: 35px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
 
 .tools{
     justify-content: flex-start;
@@ -137,6 +140,7 @@ nav{
 /*==================================*/
 
 main{
+    margin-left: 170px;
     line-height: .6rem;
 }
 
@@ -371,7 +375,7 @@ cite{
     padding: 30px 0 45px 0;
 }
 
-.here{
+.gt-a{
     flex-direction: column;
     font-size: 13px;
     text-decoration: none;
@@ -383,7 +387,7 @@ cite{
     color: hsl(0, 0%, 15%);
 }
 
-.here > img{
+.gt-a > img{
     padding-bottom: 5px;
 }
 
