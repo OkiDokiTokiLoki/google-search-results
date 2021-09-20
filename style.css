@@ -394,13 +394,18 @@ cite{
     color: var(--link-secondary);
 }
 
-.current{
-    cursor: auto;
-    color: var(--text-15);
+.gt-a:hover{
+    text-decoration: underline;
 }
 
 .gt-a > img{
     padding-bottom: 5px;
+}
+
+.current{
+    cursor: auto;
+    color: var(--text-15);
+    text-decoration: none !important;
 }
 
 /*======================*/
