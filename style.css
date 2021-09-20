@@ -2,6 +2,19 @@
 /* --->   Resets   <--- */
 /*======================*/
 
+:root{
+    --bg-color: hsl(0, 0%, 95%);
+    --border-color: hsl(0, 0%, 90%);
+    
+    --text-15: hsl(0, 0%, 15%);
+    --text-35: hsl(0, 0%, 35%);
+    --text-50: hsl(0, 0%, 50%);
+
+    --link-primary: hsl(240, 100%, 30%);
+    --link-secondary: hsl(214, 82%, 51%);
+    --link-visited: hsl(276, 76%, 35%);   
+}
+
 *,
 *::before,
 *::after{
@@ -10,6 +23,8 @@
 
 body{
     font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .flex{
@@ -22,8 +37,20 @@ body{
     text-decoration: none;
 }
 
+.fs12{
+    font-size: 0.75rem;  /*12px*/
+}
+
+.fs14{
+    font-size: 0.875rem;  /*14px*/
+}
+
+.fs20{
+    font-size: 1.25rem;  /*20px*/
+}
+
 .visited{
-    color: hsl(276, 76%, 35%) !important;
+    color: var(--link-visited) !important;
 }
 
 /*======================*/
@@ -32,7 +59,7 @@ body{
 
 header{
     padding-top: 10px;
-    border-bottom: 1px solid hsl(0, 0%, 95%);
+    border-bottom: 1px solid var(--bg-color);
 }
 
 nav{
@@ -60,7 +87,7 @@ nav{
     left: 170px;
 
     padding-right: 15px;
-    border: 1px solid hsl(0, 0%, 95%);
+    border: 1px solid var(--bg-color);
     box-shadow: 0 2px 5px 0 hsl(0, 0%, 85%);  
     border-radius: 30px;  
 }
@@ -74,14 +101,14 @@ nav{
 }
 
 ::placeholder{
-    color: hsl(0, 0%, 15%);
+    color: var(--text-15);
     font-size: 1rem;
 }
 
 .search-tools{
     justify-content: space-between;
     width: 5rem;
-    border-left: 1px solid hsl(0, 0%, 95%);
+    border-left: 1px solid var(--bg-color);
 }
 
 .right-nav{
@@ -96,7 +123,7 @@ nav{
 }
 
 .rn-tools-a:hover{
-    background-color: hsl(0, 0%, 90%);
+    background-color: var(--border-color);
 }
 
 .rn-tools-img{
@@ -112,22 +139,20 @@ nav{
 .tools{
     justify-content: flex-start;
     margin: 20px 0 0 170px;
-    font-size: 14px
 }
 
 .nt-a.top{
-    color: hsl(214, 82%, 51%);
-    border-bottom: 3px solid hsl(214, 82%, 51%);
+    color: var(--link-secondary);
+    border-bottom: 3px solid var(--link-secondary);
     padding: 0 0 9px 0 !important;
 }
 
 .nt-a{
     padding: 0 0 12px 25px;
-    color: hsl(0, 0%, 35%);
+    color: var(--text-35);
 }
 
 .nt-img{
-    width: 19px;
     padding-right: 2px;
 }
 
@@ -145,8 +170,7 @@ main{
 }
 
 .results{
-    color: hsl(0, 0%, 50%);
-    font-size: 0.86rem;
+    color: var(--text-50);
     margin-top: 17px;
 }
 
@@ -155,14 +179,13 @@ main{
 }
 
 .heading-a{
-    color: hsl(0, 0%, 15%);
+    color: var(--text-15);
     max-width: 38%;
 }
 
 .heading-h3{
     font-weight: 400;
-    font-size: 20px;
-    color: hsl(240, 100%, 30%);
+    color: var(--link-primary);
 }
 
 .cite-div{
@@ -172,18 +195,15 @@ main{
 
 cite{
     font-style: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .cite-img{
-    width: 18px;
     margin-left: 17px;
-
 }
 
 .result-p{
-    font-size: 14px;
-    color: hsl(0, 0%, 35%);
+    color: var(--text-35);
     max-width: 95%;
     line-height: 1.2rem;
 }
@@ -204,19 +224,16 @@ cite{
 
 .frt-h3{
     font-weight: 400;
-    font-size: 20px;
     line-height: 0;
 }
 
 .frt-p{
     line-height: 1.3rem;
-    font-size: 14px;
-    color: hsl(0, 0%, 35%);
+    color: var(--text-35);
 }
 
 .frt-q{
     margin-top: 20px;
-    font-size: 14px;
 }
 
 /*=====================================*/
@@ -230,7 +247,6 @@ cite{
 .paa-h3,
 .rs-h3{
     font-weight: 400;
-    font-size: 20px;
 }
 
 .related-qs-div{
@@ -243,7 +259,7 @@ cite{
     justify-content: space-between;
     padding: 10px 0;
     width: 38%;
-    border-top: 1px solid hsl(0, 0%, 90%);
+    border-top: 1px solid var(--border-color);
 }
 
 .related-q-link{
@@ -267,14 +283,13 @@ cite{
 }
 
 .feedback-line{
-    border-top: 1px solid hsl(0, 0%, 90%);
+    border-top: 1px solid var(--border-color);
     width: 100%;
 }
 
 .fdbk-span{
     padding: 1px 0 1px 10px;
-    color: hsl(0, 0%, 50%);
-    font-size: 12px;
+    color: var(--text-50);
 }
 
 /*======================================*/
@@ -292,7 +307,7 @@ cite{
 
 .rs-h3{
     padding-bottom: 20px;
-    border-bottom: 1px solid hsl(0, 0%, 90%);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .related-suggestions{
@@ -309,14 +324,12 @@ cite{
 }
 
 .holder-img{
-    width: 100px;
-    background-color: hsl(0, 0%, 96%);
+    background-color: var(--bg-color);
     border-radius: 8px;    
 }
 
 .holder-a{
-    font-size: 14px;
-    color: hsl(0, 0%, 15%);
+    color: var(--text-15);
     padding: 8px 8px;
     line-height: 1.2rem;
 } 
@@ -327,7 +340,7 @@ cite{
 
 .sm-div{
     padding: 8px 5px;
-    border: 1px solid hsl(0, 0%, 90%);
+    border: 1px solid var(--border-color);
     border-radius: 20px;
     width: 300px;
 }
@@ -348,7 +361,7 @@ cite{
 
 .box-result{
     justify-content: flex-start;
-    background-color: hsl(0, 0%, 95%);
+    background-color: var(--bg-color);
     border-radius: 30px;
     padding: 15px;
     margin: 8px 0;
@@ -356,13 +369,12 @@ cite{
 
 .box-result > a{
     text-decoration: none;
-    color: hsl(0, 0%, 15%);
+    color: var(--text-15);
     line-height: 1.2rem;
     padding-left: 25px;
 }
 
 .sb-img{
-    width: 20px;
     margin-left: 13px;
 }
 
@@ -377,14 +389,14 @@ cite{
 
 .gt-a{
     flex-direction: column;
-    font-size: 13px;
+    font-size: 0.8125rem;
     text-decoration: none;
-    color: hsl(214, 82%, 51%);
+    color: var(--link-secondary);
 }
 
 .current{
     cursor: auto;
-    color: hsl(0, 0%, 15%);
+    color: var(--text-15);
 }
 
 .gt-a > img{
@@ -397,8 +409,7 @@ cite{
 
 footer{
     height: 97px;
-    background-color: hsl(0, 0%, 95%);
-    padding-left: 170px;
+    background-color: var(--bg-color);
     color: hsl(0, 0%, 45%);
 }
 
@@ -407,6 +418,6 @@ footer{
     justify-content: flex-start;
     align-items: center;
     height: 54px;
+    padding-left: 170px;
     border-bottom: 1px solid hsl(0, 0%, 85%);
-    font-size: 14px;
 }
