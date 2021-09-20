@@ -72,7 +72,7 @@
     </header>
 
     <main>
-        <p class="results fs14">About 17 300 000 results (0,50 seconds)</p>
+        <p class="results fs14">About <span id="random_number"></span> results (0,50 seconds)</p>
 
         <div class="first-result-div">
                 
@@ -404,10 +404,18 @@
 
     </main>
 
+    <p ></p>
+
+
     <footer>
         <div class="f-top fs14">Your local address here</div>
         <div style="color: transparent;">fin - also, this page isn't responsive (yet)</div>
     </footer>
+
+    <script>  //Adds a random number to # of search results 
+        let randomNumber = Math.floor(Math.random() * 1000000);
+        document.getElementById("random_number").innerHTML = randomNumber;
+    </script>
 
 </body>
 </html>
