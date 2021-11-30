@@ -1,12 +1,12 @@
-<h3>Clone of Google search results page - The Odin Project</h3>
+<h3>Google search results page</h3>
 
 [Live demo](https://okidokitokiloki.github.io/google-search-results/)
 
 ## General info
-This is a simple clone of a Google SERP, specifically, "the odin project". 
+This is a clone of a Google SERP, specifically, "the odin project". 
 	
 ## Technologies
-This is a project proposed by The Odin Project as part of the foundations module.
+This is an exercise proposed by The Odin Project as part of their "foundations" module.
 
 Project is created with:
 * HTML
